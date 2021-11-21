@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Contacts</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar navbar-dark">
+        <div class="container-fluid">
+            <div class="d-flex nav-wrapper-left">
+                <a class="navbar-brand home-link" href="index.html"><h3>Contacts</h3></a>
+                <a class="navbar-brand menu-item" href="list.html">All Contacts</a>
+
+            </div>
+          
+        </div>
+      </nav>
+      <div id="container">
+        <div class="form-wrapper">
+          <div class="mb-3 input-row">
+            <label for="contact-name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="contact-name" placeholder="Enter Contact Name">
+          </div>
+          <div class="mb-3 input-row">
+            <label for="contact-email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="contact-email" placeholder="name@example.com">
+          </div>
+          <div class="mb-3 input-row">
+            <label for="contact-number" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="contact-number" placeholder="Enter Phone #">
+          </div>
+          <div class="action-btn">
+            <button id="submit-button" class="btn btn-primary" type="button"> Save Contact</button>
+            <button id="update-button" class="btn btn-primary" type="button"> Update Contact</button>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main2.js"></script>
+</body>
+</html>
