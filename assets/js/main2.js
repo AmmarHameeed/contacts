@@ -106,7 +106,7 @@ $(document).ready(function () {
         //   append new todo to DOM
         const newTodo = (contactToAppend) => {
             $("#container-listing").append(`
-        <a class="contact-row" href="home2.html?edit=${contactToAppend.contactId}">
+        <a class="contact-row" href="index.html?edit=${contactToAppend.contactId}">
         ${contactToAppend.CTitle}
         </a>
         `);
