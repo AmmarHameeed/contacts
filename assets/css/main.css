@@ -58,3 +58,16 @@ align-items: center;
     font-size: 14px;
     font-weight: 600;
 }
+.listing-page-heading {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: #ed7d31;
+}
+
+#container-listing {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
