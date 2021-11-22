@@ -1,4 +1,5 @@
 body{
+    position: relative;
     font-family: 'Nunito', sans-serif;
 }
 .navbar {
@@ -70,4 +71,12 @@ align-items: center;
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+.custom-alert {
+    width: auto;
+    position: absolute;
+    top: 85px;
+    right: 10px;
+    transition: opacity.5s;
+    opacity: 0;
 }

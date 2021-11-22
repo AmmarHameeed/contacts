@@ -31,7 +31,7 @@ function updateContact() {
         return false;
     };
 
-    var tech = getUrlParameter('edit');
+    // var tech = getUrlParameter('edit');
 
     $("#update-button").on("click", function () {
         const oldItems = JSON.parse(localStorage.getItem('contacts')) || [];
@@ -103,6 +103,10 @@ const submitTodo = function () {
         contactArray.push(newContact);
         localStorage.setItem('contacts', JSON.stringify(contactArray))
         lastId++;
+        $(".custom-alert").css("opacity", "1")
+        setTimeout(function(){ 
+            $(".custom-alert").css("opacity", "0")
+        }, 2500);
     }
 }
 $("#submit-button").click(function () {
